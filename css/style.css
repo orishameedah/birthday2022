@@ -294,10 +294,10 @@ margin-right: auto; */
     margin: 0;
     }
     .bd .bdtext{
-        margin-left: 5em;
+        margin-left: 2em;
     }
     .bd .bdtext h1{
-        font-size: 70px;
+        font-size: 75px;
     }
     .bd .bdtext h2 {
         font-size: 60px;
@@ -307,7 +307,7 @@ margin-right: auto; */
     }
     .about__img img{
         width: 300px;
-        margin-left: 2.5rem;
+        margin-left: 0.5rem;
     }
     .about__subtitle {
         margin-top: 3rem;
