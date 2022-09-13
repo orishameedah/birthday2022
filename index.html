@@ -13,16 +13,14 @@
     
 </head>
 <body>
-    <!-- <audio controls loop autoplay >
-        <source src="music/Simi-Happy-Birthday-Ft-Adekunle-Gold-And-DeJa-(TrendyBeatz.com).mp3" type="audio/mp3" />
-      </audio>
-     -->
-    
     <!-- nav bar start -->
     <section class="header" id="nav-menu">
         <img class="logo" src="images/cake.png" alt="logo" height="50" width="50"/>
         
-        
+        <div class="right-col">
+            <p>Click here to listen to music</p>
+            <img src="media/play1.jpg" alt="play1" id="icon">
+          </div>        
             <nav class="nav">
                 <div class="nav_menu" id="nav_menu">
                     <a href="#home" class="nav__link">Home</a>
@@ -39,10 +37,6 @@
     <!-- home start -->
     <section class="bd" id="home">
             <div class="bdtext">
-                <div class="right-col">
-                    <p>Click here to listen to music</p>
-                    <img src="media/play.png" alt="play" id="icon">
-                  </div>
                 <h1>Happy Birthday</h1>
                 <h2>Sister</h2>
             </div>  
@@ -155,10 +149,10 @@
         icon.onclick = function(){
             if(mySong.paused){
                 mySong.play();
-                icon.src = "media/pause.png";
+                icon.src = "media/pause1.png";
             }else{
                 mySong.pause();
-                icon.src = "media/play.png";
+                icon.src = "media/play1.jpg";
             }
         }
       </script>
